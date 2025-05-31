@@ -1,0 +1,9 @@
+Django~=5.0.0
+djangorestframework~=3.15.0
+djangorestframework-simplejwt # If JWT was used, otherwise token-based is fine.
+drf-yasg # For Swagger/OpenAPI documentation (optional but good practice)
+python-dotenv # For local environment variables (optional)
+dj-database-url # For easy database configuration with environment variables
+psycopg2-binary # For PostgreSQL in production
+gunicorn # WSGI HTTP Server for production
+whitenoise # For serving static files in production
